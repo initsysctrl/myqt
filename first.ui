@@ -16,31 +16,31 @@
   <property name="windowTitle">
    <string>MainWindow</string>
   </property>
-  <widget class="QWidget" name="HttpClinet">
+  <widget class="QWidget" name="MyWindow">
    <widget class="QPushButton" name="pushButton">
     <property name="geometry">
      <rect>
-      <x>20</x>
-      <y>130</y>
+      <x>460</x>
+      <y>220</y>
       <width>113</width>
       <height>32</height>
      </rect>
     </property>
     <property name="text">
-     <string>PushButton</string>
+     <string>开始</string>
     </property>
    </widget>
    <widget class="QPushButton" name="pushButton_2">
     <property name="geometry">
      <rect>
-      <x>170</x>
-      <y>130</y>
+      <x>460</x>
+      <y>300</y>
       <width>113</width>
       <height>32</height>
      </rect>
     </property>
     <property name="text">
-     <string>PushButton</string>
+     <string>B</string>
     </property>
    </widget>
    <widget class="QLabel" name="label">
@@ -53,7 +53,7 @@
      </rect>
     </property>
     <property name="text">
-     <string>TextLabel</string>
+     <string>lable 1</string>
     </property>
    </widget>
    <widget class="QLabel" name="label_2">
@@ -66,7 +66,7 @@
      </rect>
     </property>
     <property name="text">
-     <string>TextLabel</string>
+     <string>lable 2</string>
     </property>
    </widget>
    <widget class="QLabel" name="label_3">
@@ -79,7 +79,7 @@
      </rect>
     </property>
     <property name="text">
-     <string>TextLabel</string>
+     <string>lable 3</string>
     </property>
    </widget>
    <widget class="QLabel" name="label_4">
@@ -92,33 +92,33 @@
      </rect>
     </property>
     <property name="text">
-     <string>TextLabel</string>
+     <string>lable 4</string>
     </property>
    </widget>
    <widget class="QPushButton" name="pushButton_3">
     <property name="geometry">
      <rect>
-      <x>300</x>
-      <y>130</y>
+      <x>460</x>
+      <y>390</y>
       <width>113</width>
       <height>32</height>
      </rect>
     </property>
     <property name="text">
-     <string>PushButton</string>
+     <string>C</string>
     </property>
    </widget>
    <widget class="QPushButton" name="pushButton_4">
     <property name="geometry">
      <rect>
-      <x>430</x>
-      <y>130</y>
-      <width>113</width>
+      <x>470</x>
+      <y>480</y>
+      <width>101</width>
       <height>32</height>
      </rect>
     </property>
     <property name="text">
-     <string>Hello</string>
+     <string>D</string>
     </property>
    </widget>
    <widget class="QGraphicsView" name="graphicsView">
@@ -144,7 +144,30 @@
      </rect>
     </property>
     <property name="text">
-     <string>PushButton</string>
+     <string>OK</string>
+    </property>
+   </widget>
+   <widget class="QSpinBox" name="spinBox">
+    <property name="geometry">
+     <rect>
+      <x>60</x>
+      <y>120</y>
+      <width>48</width>
+      <height>24</height>
+     </rect>
+    </property>
+   </widget>
+   <widget class="QLineEdit" name="lineEdit">
+    <property name="geometry">
+     <rect>
+      <x>150</x>
+      <y>130</y>
+      <width>113</width>
+      <height>21</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>这里输入</string>
     </property>
    </widget>
   </widget>
